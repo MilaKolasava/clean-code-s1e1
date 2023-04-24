@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.header img {
+.header__imege {
   width: 100%;
 }
 .header .header__link {
@@ -88,7 +88,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {  width: 318px;
+#new-task {  width: 318px;
 }
 
 /* Task list */
@@ -117,17 +117,17 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-button.delete-button img {
+.remove-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete-button img:hover {
+.remove-image:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#main__complete-tasks label {
+.complete-tasks__label {
   text-decoration: line-through
   color: #888;
 }
